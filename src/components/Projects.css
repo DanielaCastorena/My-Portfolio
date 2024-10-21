@@ -1,0 +1,238 @@
+/* Daniela Castorena 2024 */
+/* Portfolio - Projects.css */
+
+.projects-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 auto; 
+  margin-bottom: -10px;
+}
+
+.projects-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.project {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.projects-title {
+  margin-top: 30px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.project.active {
+  transform: scale(1.1);
+}
+
+.project:not(.active) {
+  transform: scale(0.8);
+}
+
+.arrow {
+  background: none;
+  border: white;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.arrow:hover {
+  color: #ffffff;
+  border: white;
+  transform: scale(1.5);
+}
+
+.left-arrow {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(0%);
+}
+
+.right-arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(0%);
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-left: -10px;
+  overflow: hidden;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.project p {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 10px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff69b4;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  padding: 20px;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  margin-top: -60px;
+  margin-bottom: 40px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background: radial-gradient(circle, #ff69b4 60%, rgb(255, 255, 255) 40%);
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background: #ffffff !important;
+}
+
+.dot:hover {
+  background: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  .projects-carousel {
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .left-arrow {
+    position: absolute;
+    left: -2px;
+    top: 50%;
+    transform: translateY(0%);
+  }
+
+  .right-arrow {
+    position: absolute;
+    right: -2px;
+    top: 50%;
+    transform: translateY(0%);
+  }
+
+  .projects-container {
+    padding: 0;
+  }
+
+  .project {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
+
+.projects-section {
+  margin: 0;
+  width: 100%;
+}
+
+.projects-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.projects-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}

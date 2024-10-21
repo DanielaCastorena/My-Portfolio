@@ -1,0 +1,21 @@
+/* Daniela Castorena 2024 */
+/* Portfolio - Links.css */
+
+.links {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    border-radius: 5px; 
+    padding: 10px; 
+    align-items: center; 
+}
+ 
+  .links a {
+    color: #000; 
+    transition: color 0.3s; 
+  }
+  
+  .links a:hover {
+    color: #ff69b4;
+  }
+  

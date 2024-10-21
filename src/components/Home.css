@@ -1,0 +1,63 @@
+/* Daniela Castorena 2024 */
+/* Portfolio - Home.css */
+
+#introduction {
+    margin-bottom: 30px;
+}
+
+#introduction h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 50px 0px 0px;
+    text-align: center;
+}
+
+#introduction p {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.home {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.home-container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.vertical-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.vertical-navbar a {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.vertical-navbar a:hover {
+    color: #ffffff;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 245, 100, 0.102) 40%, rgba(255, 255, 255, 0.013) 60%);
+}

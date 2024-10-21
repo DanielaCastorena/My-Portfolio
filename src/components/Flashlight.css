@@ -1,0 +1,14 @@
+/* Daniela Castorena 2024 */
+/* Portfolio - Flashlight.css */
+
+.flashlight {
+  position: fixed;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 232, 175, 0.102) 40%, rgba(255, 255, 255, 0) 60%);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease-out;
+  z-index: 0;
+}

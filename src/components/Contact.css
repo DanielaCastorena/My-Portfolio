@@ -1,0 +1,106 @@
+/* Daniela Castorena 2024 */
+/* Portfolio - Contact.css */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0px auto; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 600px; 
+}
+  
+.contact-container h2 {
+    font-size: 2rem; 
+    color: #fff; 
+    text-align: center; 
+}
+  
+.contact-container form {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+  
+.form-row {
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+.form-row > div {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+.form-row > div:last-child {
+    margin-right: 0; 
+}
+
+.form-row > div:nth-child(2) {
+    margin-left: 15px; 
+}
+
+.contact-container label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+  
+.contact-container input,
+.contact-container textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+}
+  
+.contact-container textarea {
+    resize: vertical; 
+}
+
+.contact-container button {
+    font-family: serif;
+    background-color: #ffffff; 
+    color: #ff4e94; 
+    padding: 8px; 
+    border: white;
+    border-radius: 3px; 
+    cursor: pointer; 
+    font-size: 1.1rem; 
+    width: 90px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.contact-container button:hover {
+    color: #fff;
+    background-color: #ff69b4; 
+}
+@media (max-width: 768px) {
+    .contact-container {
+      width: 90%;
+      max-width: 400px; 
+      margin: 20px auto; 
+      padding: 0 10px; 
+    }
+  
+    .contact-container h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .contact-container input,
+    .contact-container textarea {
+      padding: 8px; 
+      font-size: 0.9rem; 
+    }
+  
+    .contact-container button {
+      width: 80px; 
+      font-size: 1rem; 
+    }
+  }
+  

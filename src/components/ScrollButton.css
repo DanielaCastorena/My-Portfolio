@@ -1,0 +1,15 @@
+/* Daniela Castorena 2024 */
+/* Portfolio - ScrollButton.css */
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover, .active {
+    background-color: #0056b3;
+    color: white;
+    border-color: #0056b3;
+  }
+  
